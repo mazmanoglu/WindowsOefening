@@ -41,11 +41,6 @@ namespace LeeszaalLib.Tests
             Assert.AreEqual(result.ReferenceNumber, readingRoom.ReadersList[1].ReferenceNumber) ;
         }
 
-        [Test]
-        public void ReadingRoom_NumberOfReaderByHoofdeksel_Returnxx()
-        {
-            bool isHat = Hat.HatNames.Contains(reader.ReaderHat);
-            Assert.IsTrue(isHat);
-        }
+       
     }
 }
